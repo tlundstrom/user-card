@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 720px;
+    margin: 0 auto;
+    background: linear-gradient(cadetblue 100px, white 100px);
+    border: solid lightgray .2rem;
+}
+.content{
+
+    padding: 50px;
+    padding-bottom: 20px;
+
+}
+
+.userImg{
+    width: 100px;
+    margin-bottom: 0;
+    border: solid  lightgray .2rem;
+    border-radius: 50%;
+}
+
+
+.locationContainer>*{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.mapMarker{
+    height: 1rem;
+    margin-right: 10px;
+}
+
+h4:first-of-type{
+    margin-top: 10px;
+}
+
+.settings{margin-top: 10px;}
+
+.settings>*{
+    display: inline-block;
+}
+.settings>img{
+    height: 1rem;
+}
